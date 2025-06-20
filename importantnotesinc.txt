@@ -1,0 +1,26 @@
+#size or memory data type takes.
+int = 4bytes(32 bits)
+char= 1byte (8bits)
+float = 4bytes(32bits)
+
+# for using exponential function in c you don't use (^)tullu operator 😂 but instead you use a library  called <math.h> so the tullu operator isn't used for exponential operations .
+
+#artithematic results or operations between.
+a. between int and int the result is int for any operation.
+b. between int and float the result is float for any operation.
+c. between float and float the result is float for any operation.
+d. if you store a float value in an int data type demotion takes places as only int data type is displayed and hence the float value or the decimal value is removed.
+
+##operators precedence 
+# while having a problem like 3*x-8*y, where parenthesis are absent, then no BODMAS rule is applied here instead, we use operator precedence. Which is a hirarchy of operators, with given value in ABSENSE OF PARENTHESIS.
+Priority        Operator 
+1st             /%*
+2nd             +-
+3rd             =
+
+##operators associativity
+# for an instance if, all the 1st priority operators are given in one problem then to choose which one operator would be executed first is determined by operators assoiciativity. By LEFT TO RIGHT ASSOCIATIVIY where the operators to be executed first is decided by while going left to right, the one that comes first is executed first. x*y/z (first * and then / will be executed)
+
+#typecasting = This is the operation or way to convert the data type if value and data type are predefined. 
+Syntax- int a = 31;
+        n = (float) 31; hence the data type is converted.
