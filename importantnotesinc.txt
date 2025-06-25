@@ -23,4 +23,26 @@ Priority        Operator
 
 #typecasting = This is the operation or way to convert the data type if value and data type are predefined. 
 Syntax- int a = 31;
-        n = (float) 31; hence the data type is converted.
+        n = (float) 31; hence the data type is converted.       
+In c language while performing decision making statements, the condition can be any valid statement. A non-zero value is also considered true         
+Syntax:
+        if(1){
+         printf("This will be executed");
+        }//hence this will be executed unitl and unless the value inside the if is 0.
+Types of operators :
+Arithematic Operator = +,-,*,/
+Logical Operator = &&{and},||(or),!(not)
+(AND op returns when both the conditon are true. OR op return true even if one of the condition are true. NOT op returns the opposite value of the given value for ex: if given 0 will return 1 or if given true will return false.)
+Relational Operator = ==,=>,=<,!=
+Operator Precedence 2 :
+Priority        Operator
+1st             !
+2nd             */%
+3rd             +-
+4th             <=,>=,<>,
+5th             ==,!=
+6th             &&
+7th             ||
+8th             =
+
+Apart from if and else conditions we also have switch statement. Which requires an choice to consider cases.

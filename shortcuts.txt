@@ -1,0 +1,9 @@
+#1 Ctrl + / = whole comment out. 
+#2 Alt + Shift + Down arrow = copy the exact same sentence or program line entered above. 
+#3 Alt + Mouse click = Add and extra cursor to the exact place where you clicked.
+Alt + up/down arrow = To move any text up and down in program
+condition?expression-if-true:expression-if-false (shortcut way of if and else statement)
+Syntax:
+int a = 25
+int b = 20
+a>b?printf("a is greater"):printf("b is greater");
