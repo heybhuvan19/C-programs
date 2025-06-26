@@ -15,3 +15,28 @@ if(maths/80*100 == 33){
         }
     }
 })
+
+#wap to find the income tax paid by an employee based on his income.
+#include<stdio.h>
+int main(){
+    int income, tax;
+    printf("Enter your income");
+    scanf("%d",&income)
+
+    if(income>250000 && income<500000){
+        tax = (5/100)*income;
+        printf("Tax to paid is %d",tax);
+    }
+    else if(income>500000 && income<5=1000000){
+        tax = (20/100)*income;
+        printf("Tax to paid is %d",tax);
+    }   
+    else if(income>1000000){
+        tax = (30/100)*income;
+        printf("Tax to paid is %d",tax);
+    }
+    else{
+     printf("You don't need to pay any tax");
+    }
+return ;
+}
