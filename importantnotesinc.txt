@@ -29,12 +29,15 @@ Syntax:
         if(1){
          printf("This will be executed");
         }//hence this will be executed unitl and unless the value inside the if is 0.
-Types of operators :
+
+#Types of operators :
 Arithematic Operator = +,-,*,/
 Logical Operator = &&{and},||(or),!(not)
 (AND op returns when both the conditon are true. OR op return true even if one of the condition are true. NOT op returns the opposite value of the given value for ex: if given 0 will return 1 or if given true will return false.)
-Relational Operator = ==,=>,=<,!=
-Operator Precedence 2 :
+
+#Relational Operator = ==,=>,=<,!=
+
+#Operator Precedence 2 :
 Priority        Operator
 1st             !
 2nd             */%
@@ -45,4 +48,37 @@ Priority        Operator
 7th             ||
 8th             =
 
-Apart from if and else conditions we also have switch statement. Which requires an choice to consider cases.
+#Apart from if and else conditions we also have switch statement. Which requires an choice to consider cases.
+
+#Increment and Decrement Operator in Loops in c
+i++(Post increment operator) = This means that first i will be printed and then it will be incremented:
+        Syntax = int a = 10
+                printf("The value of i is %d \n",i++)
+        Output:
+                The value of i is 10 (This would be the output but the value of i is now 11)
+++i = This means that first the value will be incremented and then it will printed:
+        Syntax = int a = 10
+                printf("The value of i is %d \n",++i);
+        Output :
+                The value of i is 11 (Here first the value was incremented and then printed)
+
+#Compound Assignment Operator
++= = This method can be used to add up 2 steps at a time for eg:
+        Syntax:
+                int a = 10;
+                printf("The value of i is %d \n", a+=2);
+        Output:
+                The value of i is 12 (Here it acts just like a = a + 2)
+There are many operator like -=, *= which acts same as the += but according to the operator used.
+
+#Garbage Value = It is a kind of value which is obtained when the variable written in the program stores an uninitialized value in C. Whenever you do any mistake in your program, you get a odd value which is garbage value.
+
+#Do & while loop 
+This is a kind of loop which at least runs for once, other than other loop which check condition first. In which do includes the code and while include the conditon section is in while which is the second step so anyhow the do section where the code is written will be executed and if the conditon satisfies then it will run again. 
+## IMPORTANT SYNTAX:
+        do{
+                //code
+        }while(condition); (HERE AFTER WRITING WHILE YOU NEED TO PUT AN SEMICOLOUMN AFTER WHILE)
+
+#for loop Syntax : for(initialize; test; increment or decrement){}
+Working = for loop basically runs on this syntax, it generally runs as the initialize command or input is read on once after that, it checks the condition, further it runs or execute the code block after execution it checks the increment and decrement operator, after all this first step, loop again checks the condition if true, proceeds to code and then incement or decrement operator.
