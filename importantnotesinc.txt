@@ -82,3 +82,8 @@ This is a kind of loop which at least runs for once, other than other loop which
 
 #for loop Syntax : for(initialize; test; increment or decrement){}
 Working = for loop basically runs on this syntax, it generally runs as the initialize command or input is read on once after that, it checks the condition, further it runs or execute the code block after execution it checks the increment and decrement operator, after all this first step, loop again checks the condition if true, proceeds to code and then incement or decrement operator.
+
+#break and continue:
+BREAK statement is used to exit the loop whether the condition is true or false 
+CONTINUE statement is used when the user wants to skip the line of code right after the continue statement for the program. 
+
