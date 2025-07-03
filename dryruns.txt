@@ -41,3 +41,16 @@ int main(){
 return ;
 }
 
+#write a program to calculate the sum of numbers occuring in the table of 8.
+#include<stdio.h>
+int main(){
+    int number=8, table,sum= 0,i;
+    table = number*i;
+    while(i<=10}{
+        printf("%d",table);
+        i++;
+        sum= sum + table;
+    }
+    printf("The total sum of all the numbers occuring in table of 8 are %d",sum);
+    return 0;
+}
